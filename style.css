@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.custom-width {
+    width: 130px;
+}
+
+.nav-item {
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-item .btn {
+    background-color: black;
+}
+
+.home {
+    background-image: url('img/Vector 8.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    font-family: "Syne", sans-serif;
+    font-size: 72px;
+    padding-top: 10%;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+}
+
+
+
+.home .btn {
+    font-family: "Rubik", sans-serif;
+    width: 200px;
+    background-color: #ff9143;
+}
+
+.about-me {
+    background-image: url('img/Vector 8.png');
+    background-position: left -200px top;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    padding-top: 10%;
+}
+
+.about-me h1 {
+    font-family: "Syne", sans-serif;
+    font-size: 63px;
+    color: white;
+}
+
+.about-me p {
+    font-family: "Rubik", sans-serif;
+    color: #a8a8a8;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.about-me .btn {
+    font-family: "Rubik", sans-serif;
+    height: 150;
+    width: 250px;
+    background-color: #ff9143;
+}
+
+.project {
+    padding-top: 5%;
+}
+
+.project .title {
+    padding-top: 15%;
+    font-family: "Syne", sans-serif;
+    font-size: 72px;
+    padding-top: 10%;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+}
+
+.project .btn {
+    font-family: "Rubik", sans-serif;
+    height: 150;
+    width: 200px;
+    background-color: #ff9143;
+}
+
+.project-title {
+    font-family: "Syne", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.client-work {
+    font-family: "Rubik", sans-serif;
+    color: #606060;
+}
+
+.client-name {
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+
+.client-info {
+    display: flex;
+    /* Menggunakan flexbox untuk inline */
+    align-items: center;
+    /* Vertically center align */
+}
+
+.project-title-wrapper {
+    display: flex;
+    /* Menggunakan flexbox */
+    align-items: center;
+    /* Vertically center align */
+    margin: 20px 0;
+    /* Jarak atas dan bawah */
+}
+
+.project-title-wrapper::after {
+    content: "";
+    /* Membuat elemen kosong */
+    width: 100px;
+    /* Lebar garis */
+    height: 1px;
+    /* Tinggi garis */
+    background-color: #ff9143;
+    /* Warna garis */
+    margin-left: 10px;
+    /* Jarak antara judul dan garis */
+}
+
+.testimoni {
+    background-image: url('img/Vector 8.png');
+    background-position: left -200px top;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.testimoni h1 {
+    font-family: "Syne", sans-serif;
+    font-size: 63px;
+    color: white;
+}
+
+.testimoni h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.testimoni p {
+    font-family: "Rubik", sans-serif;
+    color: #a8a8a8;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.contact {
+    padding-top: 5%;
+    background-color: #131313;
+}
+
+.contact h1 {
+    font-family: "Syne", sans-serif;
+    font-size: 63px;
+    color: white;
+    text-align: center;
+}
+
+.contact h3 {
+    font-family: "Syne", sans-serif;
+    font-size: 25px;
+    color: #ff9143;
+    text-align: center;
+}
+
+.contact p {
+    font-family: "Syne", sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    font-family: "Syne", sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: 30px;
+    text-align: center;
+}
+
+.works {
+    background-image: url('img/Vector 8.png');
+    background-position: left -200px top;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.works h1 {
+    font-family: "Syne", sans-serif;
+    font-size: 63px;
+    color: white;
+}
+
+.works p {
+    font-family: "Rubik", sans-serif;
+    color: #a8a8a8;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.color-work {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.work-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.worklist .btn {
+    font-family: "Rubik", sans-serif;
+    height: 150;
+    width: 200px;
+    background-color: #ff9143;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.about{
+    background-image: url('img/Vector 8.png');
+    background-position: left -200px top;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.about h1{
+    font-family: "Syne", sans-serif;
+    font-size: 63px;
+    color: white;
+}
+
+.about p{
+    font-family: "Rubik", sans-serif;
+    color: #a8a8a8;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.aboutlist h1{
+    font-family: "Syne", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+
+.contact1 { 
+    background-image: url('img/Vector 8.png');
+    background-position: left -200px top;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.contact1 h1 {
+    font-family: "Syne", sans-serif;
+    font-size: 63px;
+    color: white;
+    padding-right: 40%;
+}
+
+.contact1 p {
+    font-family: "Rubik", sans-serif;
+    color: #a8a8a8;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
